@@ -1,0 +1,38 @@
+```TypeScript``
+
+1) Make this code a valid typescript code
+
+const add = (a, b) => a + b;
+console.log(add(2, 3));
+
+2) Run this code in jsfiddle, and create an interface to support the response of the function.
+also, refactor the code to except a name as a parameter and pass that value to the name query param.
+
+async function fetchData() {
+    const response = await fetch('https://api.agify.io?name=ran');
+    const res = await response.json();
+    return res;
+}
+
+fetchData().then(x => console.log(x));
+
+3)Is this fixable ? if son, fix this so it can work without changing the values inside the array.
+
+const arr: number[] = [1,2,3,4,5, "six"];
+
+4) Make this work without changing the random value.
+
+let random : number = 6;
+random = "six";
+
+5) Make this work without changing _imagedim: 
+
+interface Dimension {
+    width: string;
+    height: string;
+}
+
+let _imagedim: Dimension = {
+    width: "100px",
+};
+
