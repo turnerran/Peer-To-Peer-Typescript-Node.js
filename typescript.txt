@@ -1,4 +1,4 @@
-TypeScript
+TypeScript -> Use https://www.typescriptlang.org/play, it's an online typescript playground so you can use it for those questions.
 
 1) Make this code a valid typescript code
 
